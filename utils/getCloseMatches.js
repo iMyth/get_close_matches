@@ -24,9 +24,9 @@ function dp(a, b, current = 0) {
 }
 
 module.exports = (letter, keywords) => {
-  if (!letter || !Array.isArray(keywords)) {
-    return;
-  }
+	if (!letter || !Array.isArray(keywords)) {
+		return;
+	}
 	const mapping = keywords.map(p => ({
 		keyword: p,
 		steps: dp(letter, p)

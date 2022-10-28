@@ -1,7 +1,7 @@
 {
 	"name": "get_close_matches",
 	"description": "find nearest string from list",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "UNLICENSED",
 	"bin": {
 		"get_close_matches": "index.js"
